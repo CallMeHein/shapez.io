@@ -1,24 +1,3 @@
-#
-#  GAME TRANSLATIONS
-#
-#  Contributing:
-#
-#    If you want to contribute, please make a pull request on this respository
-#    and I will have a look.
-#
-#  Placeholders:
-#
-#    Do *not* replace placeholders! Placeholders have a special syntax like
-#    `Hotkey: <key>`. They are encapsulated within angle brackets. The correct
-#    translation for this one in German for example would be: `Taste: <key>` (notice
-#    how the placeholder stayed '<key>' and was not replaced!)
-#
-#  Adding a new language:
-#
-#    If you want to add a new language, ask me in the discord and I will setup
-#    the basic structure so the game also detects it.
-#
-
 global:
     loading: Lädt
     error: Fehler
@@ -76,7 +55,6 @@ mainMenu:
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
         Sorry, es ist bekannt, dass das Spiel in deinem Browser langsam läuft! Kaufe die Vollversion oder lade dir Chrome herunter für das beste Erlebnis.
 
 dialogs:
@@ -136,10 +114,10 @@ dialogs:
 
     featureRestriction:
         title: Demo Version
-        desc: You tried to access a feature (<feature>) which is not available in the demo. Consider to get the standalone for the full experience!
+        desc: Das Feature, auf das du zugreifen willst(<feature>) ist nicht in der Demo Version verfügbar. Überlege dir, die Vollversion für das beste Erlebnis zu kaufen!
 
     saveNotPossibleInDemo:
-        desc: Your game has been saved, but restoring it is only possible in the standalone version. Consider to get the standalone for the full experience!
+        desc: Das Spiel wurde gespeichert, kann aber nur in der Vollversion geladen werden. Überlege dir, die Vollversion für das beste Erlebnis zu kaufen!
 
     leaveNotPossibleInDemo:
         title: Demo version
