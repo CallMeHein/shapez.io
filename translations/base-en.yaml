@@ -176,7 +176,7 @@ ingame:
     # This is shown in the top left corner and displays useful keybindings in
     # every situation
     keybindingsOverlay:
-        centerMap: Center
+        centerMap: Center on Hub
         moveMap: Move
         removeBuildings: Delete
         stopPlacement: Stop placement
@@ -511,7 +511,7 @@ keybindings:
     hint: >-
         Tip: Be sure to make use of CTRL, SHIFT and ALT! They enable different placement options.
 
-    resetKeybindings: Reset Keyinbindings
+    resetKeybindings: Reset Keybindings
 
     categoryLabels:
         general: Appplication
